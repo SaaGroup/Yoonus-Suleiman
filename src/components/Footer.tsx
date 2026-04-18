@@ -1,5 +1,5 @@
 import { RESUME_DATA } from "../constants";
-import { Linkedin, Twitter, Facebook, FileText } from "lucide-react";
+import { Linkedin, Twitter, Facebook, FileText, Youtube, Instagram } from "lucide-react";
 
 export default function Footer() {
   const getIcon = (name: string) => {
@@ -7,6 +7,8 @@ export default function Footer() {
       case 'LinkedIn': return <Linkedin size={18} />;
       case 'Twitter': return <Twitter size={18} />;
       case 'Facebook': return <Facebook size={18} />;
+      case 'YouTube': return <Youtube size={18} />;
+      case 'Instagram': return <Instagram size={18} />;
       default: return null;
     }
   };
@@ -18,9 +20,9 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center text-white font-bold text-xl">
-                Y
+                S
               </div>
-              <h3 className="text-xl font-bold uppercase tracking-tighter">Yoonus Suleiman Jatto</h3>
+              <h3 className="text-xl font-bold uppercase tracking-tighter">{RESUME_DATA.name}</h3>
             </div>
             <p className="text-[14px] text-white/70 leading-relaxed max-w-xs font-medium">
               A decade-spanning career built on strategic marketing, brand leadership, and a relentless drive for performance.
@@ -77,7 +79,7 @@ export default function Footer() {
           </div>
           
           <div className="text-[11px] text-white/30 uppercase tracking-widest font-bold">
-            © {new Date().getFullYear()} Yoonus Suleiman Jatto. All Rights Reserved.
+            © {new Date().getFullYear()} {RESUME_DATA.name}. All Rights Reserved.
           </div>
         </div>
       </div>

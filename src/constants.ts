@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   additionalEmails: ["suleyoonus@gmail.com", "suleyoonus@icloud.com"],
   phone: "+2348033809389 / 08028798152 / 08077669362 / 08098988852",
   address: "DAAR Communications PLC, Ladi Lawal Drive, Kpaduma Hills, Off TY Danjuma Street, Asokoro, Abuja FCT, Nigeria",
-  summary: "Highly organized Assistant Manager skilled in leading teams, managing daily operations and boosting customer satisfaction. Achieved success in increasing sales and profits, resolving customer complaints, and overseeing staff. Committed to providing exceptional customer service and operational compliance. Focused individual with managerial experience in the business sector. Proven ability to develop and execute strategic plans, build relationships with clients, and manage the day-to-day operations of the business. Expertise in budgeting, financial analysis, and personnel management. Industrious professional with experience in retail management. Skilled in leading and motivating teams to exceed customer expectations while increasing profits and reducing costs. Recognized for driving team performance through open communication and a positive working environment. Results-oriented professional with experience in accelerated growth, business reengineering, and financial restructuring. Frequently praised as hard-working by peers, I can be relied upon to help your team achieve its goals. Proactive professional with over 20years of experience and proven knowledge of customer-driven management, entrepreneurial leadership, and long-range planning.",
+  summary: "A visionary Leader and strategic Marketing & Economics professional with over 20 years of transformative experience in driving customer-driven management, entrepreneurial leadership, and long-range organizational planning. Highly adept at steering multi-disciplinary teams and managing complex daily operations to elevate customer satisfaction and operational excellence. With a proven track record of catalyzing accelerated growth, spearheading business re-engineering, and navigating financial restructuring, I consistently deliver measurable increases in market share and profitability. My expertise spans budgeting, financial analysis, and innovative personnel management, underpinned by a relentless commitment to strategic compliance and high-performance cultures. Frequently recognized by peers for an industrious work ethic and the ability to resolve complex challenges, I excel at building enduring client relationships and executing blueprints that ensure lasting commercial success.",
   skills: [
     "Retail marketing",
     "Customer relations",
@@ -217,7 +217,9 @@ export const RESUME_DATA = {
   social: [
     { name: "LinkedIn", href: "https://www.linkedin.com/in/yoonus-jatto-suleiman-anipr-rpa-fce-fmnes-653bb728?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
     { name: "Twitter", href: "https://twitter.com/SuleYoonus" },
-    { name: "Facebook", href: "https://www.facebook.com/suleiman.yoonus.5" }
+    { name: "Facebook", href: "https://www.facebook.com/suleiman.yoonus.5" },
+    { name: "YouTube", href: "https://www.youtube.com/@SuleimanYoonus" },
+    { name: "Instagram", href: "https://www.instagram.com/suleimanyoonus" }
   ],
   testimonials: [
     {
