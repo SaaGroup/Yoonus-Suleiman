@@ -30,7 +30,7 @@ export default function Navbar() {
               Yoonus Suleiman Jatto
             </a>
             <span className="text-[9px] uppercase tracking-[2px] text-brand-accent font-bold">
-              Marketing Strategist
+              Economics and Marketing Strategist
             </span>
           </div>
         </motion.div>
