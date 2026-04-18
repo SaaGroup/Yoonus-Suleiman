@@ -182,16 +182,6 @@ export const RESUME_DATA = {
       period: "2002"
     },
     {
-      degree: "Higher Diploma in Management",
-      institution: "Usmanu Danfodiyo University, Sokoto State",
-      period: "1999"
-    },
-    {
-      degree: "National Diploma (ND), Business Administration and Management",
-      institution: "Hallu Bingi College of Arts and Sciences, Sokoto State",
-      period: "1997"
-    },
-    {
       degree: "Senior School Certificate Examination (SSCE)",
       institution: "Ebira Muslim Community College, Okengwe-Okene",
       period: "1995"
