@@ -34,7 +34,7 @@ export default function About() {
           <div>
             <span className="section-header">Professional Profile</span>
             <h2 className="text-3xl font-bold tracking-tighter text-brand-primary mb-8 max-w-md">
-              Combining 20 years of experience with modern marketing dynamics.
+              Leadership in Marketing & Economics backed by 20+ years of strategic experience.
             </h2>
             <p className="text-[15px] text-brand-secondary leading-relaxed mb-6">
               {RESUME_DATA.summary}

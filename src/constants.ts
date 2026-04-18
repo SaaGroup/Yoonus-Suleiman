@@ -1,11 +1,13 @@
 export const RESUME_DATA = {
-  name: "Yoonus Suleiman Jatto",
-  title: "Marketing Expert & Performance Leader",
+  name: "Suleiman Jatto Yoonus",
+  title: "Acting Head, Marketing and Sales",
   image: "/profile.jpeg",
   email: "suleyoonus@yahoo.com",
-  phone: "+2348033809085",
-  address: "No. 3 George Innih Crescent, off Ibrahim Jalo Waziri Street, Zone E, Apo Legislative Quarters, Abuja FCT, Nigeria 900101",
-  summary: "Goal-oriented marketing expert with natural talents in developing and implementing successful strategies, driving profits, increasing market shares and strengthening customer dominance. Hardworking, performance-oriented leader offering proven expertise in project development, team supervision and campaign enhancement. Prepared to bring over 20 years of progressive experience and take on challenging position with opportunity to make lasting impact on company and customer success.",
+  officialEmail: "yoonus.jatto@daargroup.com",
+  additionalEmails: ["suleyoonus@gmail.com", "suleyoonus@icloud.com"],
+  phone: "+2348033809389 / 08028798152 / 08077669362 / 08098988852",
+  address: "DAAR Communications PLC, Ladi Lawal Drive, Kpaduma Hills, Off TY Danjuma Street, Asokoro, Abuja FCT, Nigeria",
+  summary: "Highly organized Assistant Manager skilled in leading teams, managing daily operations and boosting customer satisfaction. Achieved success in increasing sales and profits, resolving customer complaints, and overseeing staff. Committed to providing exceptional customer service and operational compliance. Focused individual with managerial experience in the business sector. Proven ability to develop and execute strategic plans, build relationships with clients, and manage the day-to-day operations of the business. Expertise in budgeting, financial analysis, and personnel management. Industrious professional with experience in retail management. Skilled in leading and motivating teams to exceed customer expectations while increasing profits and reducing costs. Recognized for driving team performance through open communication and a positive working environment. Results-oriented professional with experience in accelerated growth, business reengineering, and financial restructuring. Frequently praised as hard-working by peers, I can be relied upon to help your team achieve its goals. Proactive professional with over 20years of experience and proven knowledge of customer-driven management, entrepreneurial leadership, and long-range planning.",
   skills: [
     "Retail marketing",
     "Customer relations",
@@ -18,104 +20,181 @@ export const RESUME_DATA = {
     "Brand-building strategies",
     "Internet and e-mail marketing",
     "Business development",
-    "Marketing campaign management"
+    "Marketing campaign management",
+    "Budgeting & Financial Analysis",
+    "Personnel Management"
+  ],
+  memberships: [
+    { title: "Full Member, Nigerian Economic Society (FMNES)", year: "2024" },
+    { title: "Associate, Nigerian Institute of Public Relations (ANIPR)", year: "2024" },
+    { title: "Fellow, Chartered Economist (FCE), ICEN", year: "2017" },
+    { title: "Full Member, Registered Practitioner of Advertising (RPA), ARCON", year: "2016" }
+  ],
+  research: [
+    { title: "Effects of Diaspora Remittances on Exchange Rates and Economic Growth in Nigeria", year: "2025" },
+    { title: "Influence of Information Technology on the Evolution of Marketing Communication Strategies in the Central Bank of Nigeria (CBN), Headquarters Abuja", year: "2024" },
+    { title: "ECOWAS Free Movement Protocol: Implications for Security and Cooperation within the West African Sub-Region", year: "2023" },
+    { title: "Effect of E-Banking Services on Customer Satisfaction", year: "2021" },
+    { title: "Assessment of the Use of Social Media as an Advertising Vehicle: A Study of Facebook and Twitter", year: "2017" },
+    { title: "Impact of Training and Development on Employee Performance in the Banking Industry: A Case Study of UBA Plc", year: "2016" },
+    { title: "The Role of Modern Banking as a Tool for Nigerian Economic Growth: A Case Study of the Central Bank of Nigeria", year: "2011" },
+    { title: "The Role of Budgetary Control in Public Organizations: A Case Study of the Nigerian Deposit Insurance Corporation (NDIC), Abuja", year: "2002" }
   ],
   experience: [
     {
-      role: "Marketing, Sales and Research",
-      company: "DAAR Communications PLC",
-      location: "Abuja, FCT, Nigeria",
-      period: "12/2002 - Present",
+      role: "Acting Head, Marketing and Sales",
+      company: "DAAR Communications PLC (AIT/Raypower & Faaji FM)",
+      location: "Abuja, Nigeria",
+      period: "08/2024 - Present",
       achievements: [
-        "Identified new targets, developed new business opportunities and presented product lines to customers.",
-        "Considered business demands and customer preferences when developing pricing structures and marketing plans.",
-        "Resolved problems with high-profile customers to maintain relationships and increase return customer base.",
-        "Established, initiated and optimised marketing strategies based on company targets, product specifications, market data and budget factors.",
-        "Directed marketing projects at all stages, including conceptual planning, schedule management and final implementation.",
-        "Collaborated with managers to provide customer feedback and recommend operational changes to meet emerging trends.",
-        "Evaluated consumer preferences and behaviours, combined with market trends and historical data, to adjust and enhance campaigns."
+        "Formulate creative marketing strategies to expand market share.",
+        "Develop proactive marketing strategies to increase patronage.",
+        "Create key messages that communicate the core brand identity.",
+        "Collaborate with agencies and internal teams on communication and PR activities.",
+        "Manage media relations and build relationships with key industry stakeholders.",
+        "Prepare weekly and monthly marketing, sales, and research reports.",
+        "Maintain strong relationships with internal and external stakeholders."
+      ]
+    },
+    {
+      role: "Assistant Manager, Marketing and Sales",
+      company: "DAAR Communications PLC",
+      location: "Abuja, Nigeria",
+      period: "07/2014 - 08/2024",
+      achievements: [
+        "Led teams and managed daily operations to boost customer satisfaction.",
+        "Increased sales and profits through strategic plan execution.",
+        "Overseen staff and managed day-to-day business operations.",
+        "Developed and maintained relationships with high-profile clients."
+      ]
+    },
+    {
+      role: "Marketing Executive",
+      company: "DAAR Communications PLC",
+      location: "Abuja, Nigeria",
+      period: "08/2003 - 07/2014",
+      achievements: [
+        "Executed marketing campaigns and optimized product lines for customer needs.",
+        "Identified new business opportunities and presented product lines to customers."
+      ]
+    },
+    {
+      role: "Marketing Production",
+      company: "DAAR Communications PLC",
+      location: "Abuja, Nigeria",
+      period: "12/2002 - 08/2003",
+      achievements: [
+        "Handled production-related marketing activities."
       ]
     },
     {
       role: "Student Teacher",
       company: "Government Girls Day Secondary School (GGDSS)",
-      location: "Okene, Kogi State, Nigeria",
-      period: "01/2001 - 12/2001",
+      location: "Okene, Kogi State",
+      period: "07/2001 - 12/2001",
       achievements: [
-        "Created lesson plans that incorporated mandated topics and included immersive activities for student engagement.",
-        "Managed challenging student behaviour, conducted interventions and meetings to provide feedback and recommended appropriate action.",
-        "Established productive rapport with parents, encouraging parental involvement to boost student achievement."
+        "Created lesson plans and managed classroom activities."
       ]
     },
     {
-      role: "Accountant",
-      company: "Ochunson Printing Press Ltd",
-      location: "Abuja, FCT, Nigeria",
+      role: "Cashier / Accountant",
+      company: "Ochuson Printing Press",
+      location: "Area 10, Garki, Abuja",
       period: "01/1998 - 08/1999",
       achievements: [
-        "Completed daily cash functions like account tracking, payroll and wage allocations, budgeting and reconciliations with 100% accuracy.",
-        "Filed tax returns and prepared governmental reports in compliance with strict standards.",
-        "Investigated and resolved variances in digital and physical records to promote record integrity."
+        "Managed financial records, payroll, and budgeting tasks."
       ]
     },
     {
-      role: "Accountant",
-      company: "Senior Police Officers Mess",
-      location: "Abuja, FCT, Nigeria",
+      role: "Cashier, Provisions & Cosmetics Unit",
+      company: "Senior Police Officers Mess, Zone 7",
+      location: "Wuse, Abuja",
       period: "07/1996 - 12/1997",
       achievements: [
-        "Investigated and resolved variances in digital and physical records to promote record integrity.",
-        "Created periodic reports comparing budgeted costs to actual costs.",
-        "Maintained integrity of general ledger, including chart of accounts.",
-        "Provided extensive clerical and administrative support to department staff."
+        "Handled cash transactions and inventory management."
       ]
     }
   ],
   education: [
     {
-      degree: "Master of Science: Economics",
-      institution: "Nigerian Defence Academy (NDA) - Kaduna",
-      period: "12/2022"
+      degree: "Doctor of Philosophy (PhD) in Economics",
+      institution: "Nigerian Defence Academy (NDA), Kaduna",
+      period: "2025/2026 (In View)"
     },
     {
-      degree: "Master of Business Administration: Marketing",
-      institution: "Ahmadu Bello University (ABU) - Zaria, Kaduna",
-      period: "09/2021"
+      degree: "Master of Science (MSc) in Economics",
+      institution: "Nigerian Defence Academy (NDA), Kaduna",
+      period: "2025"
     },
     {
-      degree: "SVQ Level 5: Human Resources and Management",
-      institution: "Metropolitan School of Business and Management - UK",
-      period: "12/2020"
+      degree: "Master in Information Management (MIM)",
+      institution: "Ahmadu Bello University (ABU), Zaria",
+      period: "2024"
     },
     {
-      degree: "Certificate of Higher Education: Digital Marketing",
-      institution: "National Institute of Information Technology - Abuja, FCT",
-      period: "06/2018"
+      degree: "Master in International Affairs and Diplomacy (MIAD)",
+      institution: "Ahmadu Bello University (ABU), Zaria",
+      period: "2023"
     },
     {
-      degree: "Certificate of Higher Education: SWIFT",
-      institution: "National Institute of Information Technology - Abuja, FCT",
-      period: "12/2017"
+      degree: "Master of Business Administration (MBA), Marketing",
+      institution: "Ahmadu Bello University (ABU), Zaria",
+      period: "2021"
     },
     {
-      degree: "SVQ Level 5: Advertising and Public Relations",
-      institution: "University of Maiduguri - Borno State",
-      period: "09/2017"
+      degree: "International Postgraduate Diploma in Human Resources & Management",
+      institution: "Metropolitan School of Business and Management (MSBM), UK",
+      period: "2020"
     },
     {
-      degree: "Bachelor of Science: Business Administration",
-      institution: "University of Abuja - Abuja, FCT",
-      period: "10/2016"
+      degree: "Certification in Digital Marketing",
+      institution: "National Institute of Information Technology (NIIT), Abuja",
+      period: "2018"
     },
     {
-      degree: "Diploma of Higher Education: Economics",
-      institution: "Institute of Chartered Economic of Nigeria (ICEN) - Kaduna",
-      period: "12/2012"
+      degree: "Certification in SWIFT",
+      institution: "National Institute of Information Technology (NIIT), Abuja",
+      period: "2017"
     },
     {
-      degree: "Bachelor of Science: Economics",
-      institution: "University of Abuja - Abuja, FCT",
-      period: "09/2011"
+      degree: "Postgraduate Diploma in Advertising and Public Relations (PGDAP)",
+      institution: "International Institute of Journalism (IIJ), Abuja",
+      period: "2017"
+    },
+    {
+      degree: "Bachelor of Science (B.Sc.), Business Administration",
+      institution: "University of Abuja",
+      period: "2016"
+    },
+    {
+      degree: "Bachelor of Science (B.Sc.), Economics",
+      institution: "University of Abuja",
+      period: "2011"
+    },
+    {
+      degree: "Diploma in Economics",
+      institution: "Institute of Chartered Economists of Nigeria (ICEN), Kaduna",
+      period: "2011"
+    },
+    {
+      degree: "Nigeria Certificate in Education (NCE), Business Education",
+      institution: "Federal College of Education (FCE), Okene",
+      period: "2002"
+    },
+    {
+      degree: "Higher Diploma in Management",
+      institution: "Usmanu Danfodiyo University, Sokoto State",
+      period: "1999"
+    },
+    {
+      degree: "National Diploma (ND), Business Administration and Management",
+      institution: "Hallu Bingi College of Arts and Sciences, Sokoto State",
+      period: "1997"
+    },
+    {
+      degree: "Senior School Certificate Examination (SSCE)",
+      institution: "Ebira Muslim Community College, Okengwe-Okene",
+      period: "1995"
     }
   ],
   projects: [

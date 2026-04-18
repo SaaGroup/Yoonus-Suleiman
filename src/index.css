@@ -55,4 +55,108 @@
   }
 }
 
+@media print {
+  @page {
+    margin: 20mm;
+    size: A4;
+  }
+
+  nav, 
+  footer, 
+  button, 
+  .no-print,
+  #contact form {
+    display: none !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background-color: white !important;
+    color: black !important;
+  }
+
+  section {
+    page-break-inside: auto;
+    break-inside: auto;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+  }
+
+  .max-w-7xl {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .grid {
+    display: block !important;
+  }
+
+  /* Grid layout fixes for print */
+  #hero .grid,
+  #about .grid,
+  #research .grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  #hero {
+    min-height: auto !important;
+    height: auto !important;
+    padding-top: 0 !important;
+  }
+
+  #hero .hidden.lg\:block {
+    display: block !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  #hero .lg\:grid-cols-\[1fr_400px\] {
+    grid-template-columns: 1fr 200px !important;
+    gap: 2rem !important;
+  }
+
+  #hero .hero-text {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+
+  #skills .flex-wrap {
+    gap: 0.5rem !important;
+  }
+
+  #skills .px-5 {
+    padding: 0.25rem 0.5rem !important;
+    border-radius: 4px !important;
+    font-size: 11px !important;
+  }
+
+  /* Force display of hidden elements in Hero for print */
+  #hero .hidden.lg\:block {
+    display: block !important;
+  }
+
+  /* Avoid breaking sections in half */
+  .p-8, .p-6, .sidebar-section, #education div {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .absolute, .blur-3xl, .animate-pulse {
+    display: none !important;
+  }
+}
+
 

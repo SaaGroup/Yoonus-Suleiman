@@ -61,7 +61,7 @@ export default function Hero() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          className="hidden lg:block h-full border border-brand-border rounded-2xl p-8 bg-brand-bg-sidebar shadow-2xl shadow-indigo-900/5 overflow-hidden"
+          className="hidden lg:block print:hidden h-full border border-brand-border rounded-2xl p-8 bg-brand-bg-sidebar shadow-2xl shadow-indigo-900/5 overflow-hidden"
         >
           <div className="space-y-12">
             {/* Profile Image */}
@@ -89,8 +89,14 @@ export default function Hero() {
                     <Mail size={16} className="text-brand-accent" />
                   </div>
                   <div className="text-sm">
-                    <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5">Email</span>
-                    <span className="font-semibold text-brand-primary">{RESUME_DATA.email}</span>
+                    <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5">Contact Emails</span>
+                    <span className="font-semibold text-brand-primary block text-[13px]">{RESUME_DATA.email}</span>
+                    <span className="font-semibold text-brand-primary block text-[11px] opacity-70 italic">{RESUME_DATA.officialEmail}</span>
+                    {RESUME_DATA.additionalEmails?.map((email, idx) => (
+                      <span key={idx} className="font-semibold text-brand-primary block text-[11px] opacity-60">
+                        {email}
+                      </span>
+                    ))}
                   </div>
                 </div>
                 <div className="flex gap-4 items-center">
@@ -98,8 +104,10 @@ export default function Hero() {
                     <Phone size={16} className="text-brand-accent" />
                   </div>
                   <div className="text-sm">
-                    <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5">Phone</span>
-                    <span className="font-semibold text-brand-primary">{RESUME_DATA.phone}</span>
+                    <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5">Phone Lines</span>
+                    <span className="font-semibold text-brand-primary block text-[13px] leading-relaxed max-w-[200px]">
+                      {RESUME_DATA.phone.split(" / ").join("\n")}
+                    </span>
                   </div>
                 </div>
               </div>

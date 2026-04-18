@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { RESUME_DATA } from "../constants";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,7 @@ export default function Navbar() {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
+    { name: "Research", href: "#research" },
     { name: "Work", href: "#portfolio" },
     { name: "Insights", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
@@ -23,11 +25,11 @@ export default function Navbar() {
           className="flex items-center gap-3"
         >
           <div className="w-10 h-10 bg-brand-primary rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-indigo-200">
-            Y
+            S
           </div>
           <div className="flex flex-col">
             <a href="#" className="text-sm font-bold tracking-tighter text-brand-primary uppercase">
-              Yoonus Suleiman Jatto
+              {RESUME_DATA.name}
             </a>
             <span className="text-[9px] uppercase tracking-[2px] text-brand-accent font-bold">
               Economics and Marketing Strategist

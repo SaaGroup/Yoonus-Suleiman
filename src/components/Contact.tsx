@@ -30,7 +30,11 @@ export default function Contact() {
                 </div>
                 <div className="text-sm">
                   <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5 tracking-widest">Email</span>
-                  <span className="font-bold text-brand-primary">{RESUME_DATA.email}</span>
+                  <span className="font-bold text-brand-primary block">{RESUME_DATA.email}</span>
+                  <span className="font-bold text-brand-primary block text-xs opacity-60 italic">{RESUME_DATA.officialEmail}</span>
+                  {RESUME_DATA.additionalEmails?.map((email, idx) => (
+                    <span key={idx} className="font-bold text-brand-primary block text-xs opacity-40">{email}</span>
+                  ))}
                 </div>
               </div>
               <br />
@@ -39,8 +43,10 @@ export default function Contact() {
                   <Phone size={20} />
                 </div>
                 <div className="text-sm">
-                  <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5 tracking-widest">Phone</span>
-                  <span className="font-bold text-brand-primary">{RESUME_DATA.phone}</span>
+                  <span className="block text-[10px] uppercase text-brand-secondary font-bold mb-0.5 tracking-widest">Phone lines</span>
+                  <span className="font-bold text-brand-primary block whitespace-pre-line text-xs">
+                    {RESUME_DATA.phone.split(" / ").join("\n")}
+                  </span>
                 </div>
               </div>
             </div>
