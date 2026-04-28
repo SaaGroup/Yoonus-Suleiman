@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   email: "suleyoonus@yahoo.com",
   officialEmail: "yoonus.jatto@daargroup.com",
   additionalEmails: ["suleyoonus@gmail.com", "suleyoonus@icloud.com"],
-  phone: "+2348033809389 / 08028798152 / 08077669362 / 08098988852",
+  phone: "+2348033809085 / 08028798152 / 08077669362 / 08098988852",
   address: "DAAR Communications PLC, Ladi Lawal Drive, Kpaduma Hills, Off TY Danjuma Street, Asokoro, Abuja FCT, Nigeria",
   summary: "A visionary Leader and strategic Marketing & Economics professional with over 20 years of transformative experience in driving customer-driven management, entrepreneurial leadership, and long-range organizational planning. Highly adept at steering multi-disciplinary teams and managing complex daily operations to elevate customer satisfaction and operational excellence. With a proven track record of catalyzing accelerated growth, spearheading business re-engineering, and navigating financial restructuring, I consistently deliver measurable increases in market share and profitability. My expertise spans budgeting, financial analysis, and innovative personnel management, underpinned by a relentless commitment to strategic compliance and high-performance cultures. Frequently recognized by peers for an industrious work ethic and the ability to resolve complex challenges, I excel at building enduring client relationships and executing blueprints that ensure lasting commercial success.",
   skills: [
